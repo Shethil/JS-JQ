@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Link -->
+    <link rel="stylesheet"  href="css/bootstrap.css">
+    <link rel="stylesheet"  href="css/style.css">
+    <link rel="stylesheet"  href="css/media.css">
+
+    <title>JS & JQ</title>
+  </head>
+
+  <body>
+    
+    <div class="container">
+      <h1>Click the button to change the text</h1>
+      <button type="button" class="btn btn-success" onclick="changeText()">Click Me</button>
+      <h2 id="v1">Hello World</h2>
+      <h2 class="c1">Hello World</h2>
+      <h2 class="c1">Hello World</h2>
+      <h2 class="c1">Hello World</h2>
+
+      <br>
+    </div>
+
+    <div class="container">
+      <h1>Click the button to chack the Date</h1>
+      <button type="button" class="btn btn-success" onclick="date()">Click Me</button>
+      <h2 id="v2"> </h2>
+      <br>
+
+      <h1>Click the button to repetation the text</h1>
+      <button type="button" class="btn btn-success" onclick="repetation()">Click Me</button>
+      <h2 id="v3">Keep calm and carry on.</h2>
+      <br>
+
+      <h1>Click the button to change the text size</h1>
+      <button type="button" class="btn btn-success" onclick="changeSize()">Click Me</button>
+      <h2 id="v4">Good friends, good books, and a sleepy conscience: this is the ideal life</h2>
+      <br>
+
+      <h1>Click the button to change the Image</h1>
+      <button type="button" class="btn btn-success" onclick="imgOne()">Image 1</button>
+      <button type="button" class="btn btn-danger" onclick="imgTwo()">Image 2</button>
+
+      <img src="images/1.jpg" id="img">
+      <br>
+
+      <h1>Double click the button to change the Image</h1>
+      <button type="button" class="btn btn-success" ondblclick="imgThree()">Image</button>
+
+      <img src="images/3.jpg" id="img1">
+      <br>
+
+      <h1>Mouse out to change the Image</h1>
+      <button type="button" class="btn btn-success" onmouseout="imgFour()">Image 1</button>
+      <button type="button" class="btn btn-danger" onmouseout="imgFive()">Image 2</button>
+
+      <img src="images/1.jpg" id="img2">
+      <br>
+
+
+    </div>
+    
+
+    <!--JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    
+  </body>
+</html>
